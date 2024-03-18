@@ -1,5 +1,3 @@
-<div style="text-align:center;">
-
 # Welcome to the BetterBot Docs!
 
 Welcome to the official BetterBot Documentation! Here is where you will find all of the handy info relating to BetterBot and its commands!
@@ -26,6 +24,3 @@ Our Discord bot offers the following features:
 If you have any questions or need assistance with the bot, feel free to reach out to our support team on [Discord](https://discord.gg/AkEG26fqn7) or check out our [FAQ](faq.md) page.
 
 Happy botting!
-
-</div>
-
