@@ -21,18 +21,16 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
-  margin: 0 20px;
+  color: #fff;
   font-weight: bold;
-  font-size: 18px;
-  padding: 10px 20px;
-  margin: 0 15px;
-  transition: color 0.5s ease;
+  margin: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 nav a:hover {
-  color: #c1a415;
-  text-decoration: underline;
+  color: #debd01;
+  border-bottom: 5px solid #debd01;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -44,8 +42,9 @@ nav a:hover {
 }
 
 .active {
-  color: #c1a415;
-  font-weight: bold;
+  color: #debd01;
+  border-bottom: 5px solid #debd01;
+  padding-bottom: 5px;
 }
 
 main {
@@ -59,25 +58,6 @@ main {
   main {
     grid-template-columns: 1fr;
   }
-}
-
-button {
-  background-color: #000000;
-  color: white;
-  padding: 15px 32 px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: all 0.5s ease;
-}
-
-button:hover {
-  background-color: #c1a415;
-  font-weight: bold;
 }
 
 aside {
